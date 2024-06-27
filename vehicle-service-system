@@ -1,0 +1,32 @@
+vehicle-service-system/
+│
+├── public/
+│   ├── css/
+│   │   └── styles.css
+│   ├── js/
+│   │   └── main.js
+│   └── index.html
+│
+├── config/
+│   └── config.js
+├── controllers/
+│   ├── authController.js
+│   ├── mechanicController.js
+│   ├── serviceRequestController.js
+│   └── userController.js
+├── models/
+│   ├── index.js
+│   ├── mechanic.js
+│   ├── serviceRequest.js
+│   ├── user.js
+│   └── partInventory.js
+├── routes/
+│   ├── authRoutes.js
+│   ├── mechanicRoutes.js
+│   ├── serviceRequestRoutes.js
+│   └── userRoutes.js
+├── middlewares/
+│   └── authMiddleware.js
+├── app.js
+├── package.json
+└── .env
